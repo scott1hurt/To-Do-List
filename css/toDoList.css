@@ -1,5 +1,5 @@
 body{
-    background-color: #34ebb4;
+    background-color: #34e5ebda;
     text-align: center;
     font-family: 'Cabin', sans-serif;
 }
@@ -45,3 +45,37 @@ input{
 #submit:hover{
     background-color: #f5428a
 }
+
+/* Styles for ul and lis */ 
+
+ul{
+    margin-top: 20px; 
+    text-align: left;
+}
+li{
+    list-style:none;
+    border: 2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin-bottom: 10px;
+    color: midnightblue;
+    background-color: #80eb34;
+    font-weight: bold;
+    
+    transition: all 0.75s ease;
+    /* Webkit, for Safari and Opera */
+    -webkit-transition: all 0.75s ease;
+    /* Mozilla, for Firefox */
+    -moz-transition: all 0.75s ease; 
+    -o-transition: all 0.75s ease;
+}
+
+ li:hover{
+     background-color: lightseagreen;
+
+}
+/* Styles for when a list item is marked as done */ 
+
+ .done{
+     background-color: lightslategray !important;
+ }
