@@ -1,5 +1,5 @@
 body{
-    background-color: #34e5ebda;
+    background-color: #eb7d34e7;
     text-align: center;
     font-family: 'Cabin', sans-serif;
 }
@@ -79,3 +79,19 @@ li{
  .done{
      background-color: lightslategray !important;
  }
+
+ /* Styles for when a list */
+   
+ .delete {
+     display: none;
+ }
+
+ /* Styles for the delete button inside the list items */
+ /* Target any buttons whose parent element */
+ li > button {
+     float:right;
+     border:none;
+     background:none;
+     color: white;
+ }
+ 
